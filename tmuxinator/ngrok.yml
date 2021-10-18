@@ -1,0 +1,10 @@
+name: ngrok
+root: ~/
+
+tmux_options: -2
+
+attach: false
+
+windows:
+  - ngrok: ngrok start --all
+

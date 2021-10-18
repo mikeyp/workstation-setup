@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>HideSuccessfulBuilds</key>
+  <false/>
+  <key>NSStatusItem Preferred Position Item-0</key>
+  <real>535</real>
+  <key>NSTableView Columns v3 Project Window TableView</key>
+  <data>
+  YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+  AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrxAgCwwZJCUmJygpKjA6OzxG
+  R0hSU1ReX2Bqa2x2d3iCg4RVJG51bGzSDQ4PGFpOUy5vYmplY3RzViRjbGFzc6gQERIT
+  FBUWF4ACgAqADYAQgBOAFoAZgByAH9MaDQ4bHyNXTlMua2V5c6McHR6AA4AEgAWjICEi
+  gAaAB4AIgAlaSWRlbnRpZmllclVXaWR0aFZIaWRkZW5bUHJvamVjdE5hbWUjQGSR9AAA
+  AAAI0issLS5aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLS9YTlNPYmpl
+  Y3TTGg0OMTUjoxwdHoADgASABaM2NyKAC4AMgAiACVhBY3Rpdml0eSNAWbKoAAAAANMa
+  DQ49QSOjHB0egAOABIAFo0JDIoAOgA+ACIAJVlN0YXR1cyNAV7KoAAAAANMaDQ5JTSOj
+  HB0egAOABIAFo05PIoARgBKACIAJXUxhc3RCdWlsZFRpbWUjQF3FSAAAAADTGg0OVVkj
+  oxwdHoADgASABaNaWyKAFIAVgAiACV5MYXN0QnVpbGRMYWJlbCNAVw7AAAAAANMaDQ5h
+  ZSOjHB0egAOABIAFo2ZnIoAXgBiACIAJXUJ1aWxkRHVyYXRpb24jQFQAAAAAAADTGg0O
+  bXEjoxwdHoADgASABaNycyKAGoAbgAiACVxCdWlsZFN0YXJ0ZWQjQGQAAAAAAADTGg0O
+  eX0joxwdHoADgASABaN+fyKAHYAegAiACV8QGkVzdGltYXRlZEJ1aWxkQ29tcGxldGVU
+  aW1lI0B1gAAAAAAA0isshYZeTlNNdXRhYmxlQXJyYXmjhYcvV05TQXJyYXkACAARABoA
+  JAApADIANwBJAEwAUgBUAHcAfQCCAI0AlACdAJ8AoQCjAKUApwCpAKsArQCvALYAvgDC
+  AMQAxgDIAMwAzgDQANIA1ADfAOUA7AD4AQEBAgEHARIBGwEoASsBNAE7AT8BQQFDAUUB
+  SQFLAU0BTwFRAVoBYwFqAW4BcAFyAXQBeAF6AXwBfgGAAYcBkAGXAZsBnQGfAaEBpQGn
+  AakBqwGtAbsBxAHLAc8B0QHTAdUB2QHbAd0B3wHhAfAB+QIAAgQCBgIIAgoCDgIQAhIC
+  FAIWAiQCLQI0AjgCOgI8Aj4CQgJEAkYCSAJKAlcCYAJnAmsCbQJvAnECdQJ3AnkCewJ9
+  ApoCowKoArcCuwAAAAAAAAIBAAAAAAAAAIgAAAAAAAAAAAAAAAAAAALD
+  </data>
+  <key>NSTableView Sort Ordering v2 Project Window TableView</key>
+  <data>
+  YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+  AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrAsMExwdHh8gJi4vMFUkbnVs
+  bNINDg8SWk5TLm9iamVjdHNWJGNsYXNzohARgAKACIAL0xQNDhUYG1dOUy5rZXlzohYX
+  gAOABKIZGoAFgAaAB1pJZGVudGlmaWVyWUFzY2VuZGluZ11MYXN0QnVpbGRUaW1lCNIh
+  IiMkWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xQN
+  DicqG6IWF4ADgASiKyyACYAKgAdeTGFzdEJ1aWxkTGFiZWwJ0iEiMTJeTlNNdXRhYmxl
+  QXJyYXmjMTMlV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGEAZwBsAHcAfgCB
+  AIMAhQCHAI4AlgCZAJsAnQCgAKIApACmALEAuwDJAMoAzwDaAOMA8ADzAPwBAwEGAQgB
+  CgENAQ8BEQETASIBIwEoATcBOwAAAAAAAAIBAAAAAAAAADQAAAAAAAAAAAAAAAAAAAFD
+  </data>
+  <key>NSTableView Supports v2 Project Window TableView</key>
+  <true/>
+  <key>NSWindow Frame Project Window</key>
+  <string>774 470 1211 425 0 0 2560 1415 </string>
+  <key>PlaySound Broken</key>
+  <true/>
+  <key>PlaySound Fixed</key>
+  <false/>
+  <key>PlaySound StillFailing</key>
+  <true/>
+  <key>PlaySound Successful</key>
+  <false/>
+  <key>PollInterval</key>
+  <integer>5</integer>
+  <key>ProjectOrder</key>
+  <integer>0</integer>
+  <key>Projects</key>
+  <array>
+  </array>
+  <key>SendNotification Broken</key>
+  <true/>
+  <key>SendNotification Fixed</key>
+  <true/>
+  <key>SendNotification StillFailing</key>
+  <true/>
+  <key>SendNotification Successful</key>
+  <false/>
+  <key>ServerHistory</key>
+  <array>
+    <string>http://streetparking.herokuapp.com/<organization>/<repo>/ci.yml</string>
+  </array>
+  <key>ShowLastBuildLabel</key>
+  <false/>
+  <key>ShowLastBuildTimes</key>
+  <false/>
+  <key>Sound Broken</key>
+  <string>Blow</string>
+  <key>Sound Fixed</key>
+  <string>Hero</string>
+  <key>Sound StillFailing</key>
+  <string>Blow</string>
+  <key>Sound Successful</key>
+  <string>Sosumi</string>
+  <key>UseColorInMenuBar</key>
+  <true/>
+  <key>UseColorOnlyForFailedStateInMenuBar</key>
+  <true/>
+  <key>UseSymbolsForAllStatesInMenuBar</key>
+  <false/>
+</dict>
+</plist>

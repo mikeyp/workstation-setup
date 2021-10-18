@@ -1,0 +1,7 @@
+/Users/dev/projects/<project-name>/log/*.log {
+  daily
+  copytruncate
+  rotate 3
+  size 10M
+  compress
+}

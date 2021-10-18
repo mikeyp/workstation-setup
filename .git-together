@@ -1,0 +1,5 @@
+[git-together]
+  domain = buildgroundwork.com
+[git-together "authors"]
+  am = "Adam Milligan; adam"
+

@@ -1,0 +1,53 @@
+[core]
+  excludesfile = ~/.gitignore_global
+  pager = less -FXRS -x2
+  commitGraph = true
+  whitespace = space-before-tab indent-with-non-tab tab-in-indent trailing-space
+[alias]
+  st = status
+  di = diff
+  co = checkout
+  ci = commit
+  br = branch
+  lg = log --graph
+  lup = log @{u}... --left-right --graph
+  lum = log origin/master... --left-right --graph
+  mup = merge @{u}
+  rum = rebase origin/master
+  age = !"for branch in `git branch -r | awk '{print $1}'`; do echo `git log -1 $branch --pretty=format:"%at:%%$branch%%%cr%%%cn%n"`;done | column -t -s'%' | sort -nr | cut -d ':' -f 2"
+  rollback = !"git diff origin/master.. --name-only -- db/migrate | sed 's/db\\/migrate\\///g' | sort -r | xargs -I% rake db:migrate:down VERSION=%"
+  w = whatchanged
+  lall = log --branches --tags --remotes --graph
+  srp = !"git stash save -u 'wip' && rake && git push && git stash pop"
+[apply]
+  whitespace = nowarn
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[branch]
+  autosetupmerge = true
+[push]
+  default = tracking
+[rebase]
+  autosquash = true
+[format]
+  pretty = format:"%C(yellow)%<(12)%cd%Creset %<(50)%s | %C(auto)%h%Creset%C(auto)%d%Creset | %Cgreen%an%Creset"
+[log]
+  date = relative
+[merge]
+  ff = only
+[remote "origin"]
+  prune = true
+[include]
+  path = /Users/dev/.git-together
+[pull]
+  ff = only
+[checkout]
+  defaultRemote = origin

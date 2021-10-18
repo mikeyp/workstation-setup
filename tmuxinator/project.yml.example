@@ -1,0 +1,16 @@
+name: <project-name>
+root: ~/projects/<project-name>
+
+tmux_options: -2
+
+attach: false
+
+windows:
+  - vim: vim
+  - server: bundle exec rails s
+  - db: bundle exec rails db
+  - console: bundle exec rails c
+  - shell:
+  - sidekiq: bundle exec sidekiq
+  - webpack: bin/webpack-dev-server
+
