@@ -30,8 +30,8 @@ yarn global add pure-prompt
 yarn global add eslint
 
 # ruby
-rbenv install --skip-existing 2.7.2
 rbenv install --skip-existing 2.7.3
+rbenv install --skip-existing 3.0.2
 rbenv global 2.7.3
 eval "$(rbenv init -)"
 gem install bundler
