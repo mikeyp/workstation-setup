@@ -80,6 +80,7 @@ ln -sf $DIR/zshrc ~/.zshrc
 ln -sf $DIR/gemrc ~/.gemrc
 rm -f ~/.gitconfig
 cp -f $DIR/gitconfig ~/.gitconfig
+sed -i '' 's/\/Users\/dev/\/Users\/'"$USER"'/g' $HOME/.gitconfig
 ln -sf $DIR/.git-together ~/.git-together
 ln -sf $DIR/.gitignore_global ~/.gitignore_global
 ln -sf $DIR/vimrc.local ~/.vimrc.local
