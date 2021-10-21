@@ -1,0 +1,15 @@
+name: ioby-design
+root: ~/projects/ioby-design
+
+tmux_options: -2
+
+attach: false
+
+windows:
+  - vim: vim
+  - server:
+  - db:
+  - console:
+  - shell:
+  - webpack:
+
