@@ -47,6 +47,7 @@
   prune = true
 [include]
   path = /Users/dev/.git-together
+  path = /Users/dev/.gitconfig.local
 [pull]
   ff = only
 [checkout]
