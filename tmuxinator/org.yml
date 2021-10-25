@@ -1,4 +1,4 @@
-name: jane
+name: org
 root: ~/projects/ioby.org
 
 tmux_options: -2
