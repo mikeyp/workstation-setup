@@ -1,0 +1,15 @@
+name: jane
+root: ~/projects/ioby.org
+
+tmux_options: -2
+
+attach: false
+
+windows:
+  - vim: vim
+  - server: drush runserver 0.0.0.0:8888 2> /dev/null
+  - db: drush sqlc
+  - console: drush php
+  - shell:
+  - webpack: yarn start:frontend
+
