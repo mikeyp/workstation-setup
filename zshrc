@@ -141,4 +141,3 @@ test -e "${HOME}/.zshrc.local" && source "${HOME}/.zshrc.local"
 unset -v GEM_HOME
 export RAILS_DEVELOPMENT_HOST=ioby-jane.ngrok.io
 export WEBPACKER_DEV_SERVER_PUBLIC=ioby-jane-webpack.ngrok.io
-export TAILWIND_MODE=watch
