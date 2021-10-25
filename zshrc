@@ -139,3 +139,6 @@ test -e "${HOME}/.zshrc.local" && source "${HOME}/.zshrc.local"
 # https://github.com/Homebrew/homebrew-core/issues/59484
 # https://discourse.brew.sh/t/why-does-tmuxinator-sets-gem-home/7296
 unset -v GEM_HOME
+export RAILS_DEVELOPMENT_HOST=ioby-jane.ngrok.io
+export WEBPACKER_DEV_SERVER_PUBLIC=ioby-jane-webpack.ngrok.io
+export TAILWIND_MODE=watch
