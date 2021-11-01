@@ -70,7 +70,6 @@
   <false/>
   <key>ServerHistory</key>
   <array>
-    <string>http://streetparking.herokuapp.com/<organization>/<repo>/ci.yml</string>
   </array>
   <key>ShowLastBuildLabel</key>
   <false/>
