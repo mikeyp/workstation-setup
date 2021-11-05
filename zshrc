@@ -141,7 +141,8 @@ unset -v GEM_HOME
 
 export TAILWIND_MODE=watch
 export RAILS_DEVELOPMENT_HOST=mike
-export WEBPACKER_DEV_SERVER_PUBLIC=mike
+export WEBPACKER_DEV_SERVER_PUBLIC=mike:3035
+export WEBPACKER_DEV_SERVER_HOST=mike
 
 # Force an older version of node for Heroku compatibility.
 export PATH="/usr/local/opt/node@16/bin:$PATH"
