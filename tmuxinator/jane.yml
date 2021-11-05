@@ -7,7 +7,7 @@ attach: false
 
 windows:
   - vim: vim
-  - server: bundle exec rails s
+  - server: bundle exec rails s -b 0.0.0.0
   - db: bundle exec rails db
   - console: bundle exec rails c
   - shell:
