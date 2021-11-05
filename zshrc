@@ -140,8 +140,8 @@ test -e "${HOME}/.zshrc.local" && source "${HOME}/.zshrc.local"
 unset -v GEM_HOME
 
 export TAILWIND_MODE=watch
-export RAILS_DEVELOPMENT_HOST=ioby-jane.ngrok.io
-export WEBPACKER_DEV_SERVER_PUBLIC=ioby-jane-webpack.ngrok.io
+export RAILS_DEVELOPMENT_HOST=mike
+export WEBPACKER_DEV_SERVER_PUBLIC=mike
 
 # Force an older version of node for Heroku compatibility.
 export PATH="/usr/local/opt/node@16/bin:$PATH"
