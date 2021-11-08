@@ -87,7 +87,7 @@ plugins=(
     fzf
     gem
     git
-    osx
+    macos
     rake
     rbenv
     ruby
