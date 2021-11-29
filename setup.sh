@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ `uname -m` == 'arm64' ]]; then
+  HOMEBREW_DIR="/opt/homebrew"
+else
+  HOMEBREW_DIR="/usr/local"
+fi
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 
@@ -23,7 +29,7 @@ if [ ! -d ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting ]; then
 fi
 
 # scripts
-ln -sf $DIR/update.sh /usr/local/bin/workstation-update
+ln -sf $DIR/update.sh $HOMEBREW_DIR/bin/workstation-update
 
 # node
 yarn global add pure-prompt
@@ -116,4 +122,4 @@ fi
 defaults import net.sourceforge.cruisecontrol.CCMenu ccmenu.plist
 
 # logrotate
-ln -sf $DIR/logrotate.d/*.conf /usr/local/etc/logrotate.d/
+ln -sf $DIR/logrotate.d/*.conf $HOMEBREW_DIR/etc/logrotate.d/

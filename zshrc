@@ -1,3 +1,9 @@
+if [[ `uname -m` == 'arm64' ]]; then
+  export HOMEBREW_INSTALL_DIR='/opt/homebrew'
+else
+  export HOMEBREW_INSTALL_DIR='/usr/local'
+fi
+
 # Set up Homebrew zsh completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
@@ -7,8 +13,8 @@ if type brew &>/dev/null; then
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
+export PATH=$HOME/bin:$HOMEBREW_INSTALL_DIR/bin:$PATH
+export PATH=$HOMEBREW_INSTALL_DIR/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -99,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+# export MANPATH="$HOMEBREW_INSTALL_DIR/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -145,4 +151,4 @@ export WEBPACKER_DEV_SERVER_PUBLIC=mike:3035
 export WEBPACKER_DEV_SERVER_HOST=mike
 
 # Force an older version of node for Heroku compatibility.
-export PATH="/usr/local/opt/node@16/bin:$PATH"
+export PATH="$HOMEBREW_INSTALL_DIR/opt/node@16/bin:$PATH"
