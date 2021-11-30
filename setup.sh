@@ -85,7 +85,6 @@ ln -sf $DIR/.git-together ~/.git-together
 ln -sf $DIR/.gitignore_global ~/.gitignore_global
 ln -sf $DIR/vimrc.local ~/.vimrc.local
 ln -sf ~/.rails/railsrc ~/.railsrc
-ln -sf $DIR/nbrc ~/.nbrc
 mkdir -p ~/.config/bat
 ln -sf $DIR/batconfig ~/.config/bat/config
 ln -sf $DIR/authorized_keys ~/.ssh/authorized_keys
@@ -105,12 +104,6 @@ heroku plugins:install api heroku-builds
 
 # set git author
 git author $GIT_AUTHOR
-
-# nb
-# If you would like to use nb, fork this repo and add your fork here:
-if [ ! -d ~/.nb ]; then
-  nb init git@github.com:buildgroundwork/nb.git
-fi
 
 # ccmenu
 # defaults import net.sourceforge.cruisecontrol.CCMenu ccmenu.plist
