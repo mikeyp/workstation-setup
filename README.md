@@ -35,6 +35,9 @@ $ ./setup.sh
 
 ## What's included?
 ### Via homebrew
+- eslint
+- pure-prompt
+  Command line prettification for zsh.
 - Inconsolata-g font
   Developer-centric fixed-width font.
 - MacVim
@@ -54,15 +57,10 @@ $ ./setup.sh
   Fast fuzzy find for the command line and vim.
 - git-author
 - git-together
-- hub
-
-### Via yarn
-- pure-prompt
-  Command line prettification for zsh.
-- eslint
 
 ### Via rbenv
-- ruby 2.7.1
+- ruby 2.7.3
+- ruby 3.0.2
 - bundler (gem install)
 
 ### Directly downloaded
@@ -89,3 +87,7 @@ To update CCMenu preferences:
 ```sh
 $ defaults export -app CCMenu - > ccmenu.plist
 ```
+
+## M1 architecture notes
+
+The `git-together` formula has not been updated for the M1 chip, and will not install properly.  To run `git author` on an M1 machine, remove (or comment out) `git-together` from the Brewfile and build/install `git-together` from [source](https://github.com/kejadlen/git-together).
