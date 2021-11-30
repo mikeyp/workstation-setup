@@ -51,7 +51,7 @@ popd
 
 # rails
 if [ ! -d ~/.rails ]; then
-    git clone git@github.com:buildgroundwork/rails-config.git ~/.rails
+    git clone https://github.com/buildgroundwork/rails-config.git ~/.rails
 else
   pushd ~/.rails
     git checkout master
