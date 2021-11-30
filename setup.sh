@@ -15,9 +15,7 @@ set -ex
 brew bundle
 brew services restart postgresql
 brew services restart redis
-brew services restart elasticsearch-full
 brew services restart logrotate
-brew services restart kafka
 
 # Install oh my zsh
 if [ ! -d ~/.oh-my-zsh ]; then
