@@ -12,6 +12,7 @@ cask "ccmenu"
 
 brew "awscli"
 brew "bat"
+brew "cowsay"
 brew "fzf"
 brew "git"
 brew "git-author"
