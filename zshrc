@@ -132,6 +132,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(rbenv init -)"
 
 export EDITOR='vim'
+export BUNDLER_EDITOR='vim'
 
 export GIT_TOGETHER_NO_SIGNOFF=1
 
