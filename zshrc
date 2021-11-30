@@ -4,6 +4,10 @@ else
   export HOMEBREW_INSTALL_DIR='/usr/local'
 fi
 
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:$HOMEBREW_INSTALL_DIR/bin:$PATH
+export PATH=$HOMEBREW_INSTALL_DIR/sbin:$PATH
+
 # Set up Homebrew zsh completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
@@ -11,10 +15,6 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
-
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOMEBREW_INSTALL_DIR/bin:$PATH
-export PATH=$HOMEBREW_INSTALL_DIR/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh

@@ -32,7 +32,6 @@ fi
 ln -sf $DIR/update.sh $HOMEBREW_DIR/bin/workstation-update
 
 # node
-yarn global add pure-prompt
 yarn global add eslint
 
 # ruby
