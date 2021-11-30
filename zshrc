@@ -145,10 +145,5 @@ test -e "${HOME}/.zshrc.local" && source "${HOME}/.zshrc.local"
 # https://discourse.brew.sh/t/why-does-tmuxinator-sets-gem-home/7296
 unset -v GEM_HOME
 
-export TAILWIND_MODE=watch
-export RAILS_DEVELOPMENT_HOST=mike
-export WEBPACKER_DEV_SERVER_PUBLIC=mike:3035
-export WEBPACKER_DEV_SERVER_HOST=mike
-
-# Force an older version of node for Heroku compatibility.
+# Prefer version 16 (the stable version) of node.
 export PATH="$HOMEBREW_INSTALL_DIR/opt/node@16/bin:$PATH"
