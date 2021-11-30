@@ -31,9 +31,6 @@ fi
 # scripts
 ln -sf $DIR/update.sh $HOMEBREW_DIR/bin/workstation-update
 
-# node
-yarn global add eslint
-
 # ruby
 rbenv install --skip-existing 2.7.3
 rbenv install --skip-existing 3.0.2
