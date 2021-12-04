@@ -11,5 +11,5 @@ windows:
   - db: drush sqlc
   - console: drush php
   - shell:
-  - webpack: yarn start:frontend
+  - rollup: yarn start:frontend
 
