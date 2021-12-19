@@ -1,0 +1,16 @@
+name: cms
+root: ~/projects/cms
+
+tmux_options: -2
+
+attach: false
+
+windows:
+  - vim: vim
+  - server: drush runserver 0.0.0.0:8888 2> /dev/null
+  - db: drush sqlc
+  - console: drush php
+  - shell:
+  # - sidekiq: bundle exec sidekiq
+  # - webpack: bin/webpack-dev-server
+

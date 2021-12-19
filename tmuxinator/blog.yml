@@ -1,0 +1,19 @@
+name: blog
+root: ~/projects/mikeyp
+
+tmux_options: -2
+
+attach: true
+
+windows:
+  - vim: vim
+  - server: yarn dev
+  - studio:
+      root: ~/projects/mikeyp/packages/studio
+      panes:
+        - yarn start
+  - dummy:
+  - shell:
+
+
+
