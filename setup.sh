@@ -93,7 +93,7 @@ ln -sf $DIR/default-gems $(rbenv root)/default-gems
 ln -sF $DIR/tmuxinator ~/.config
 
 # iTerm2 profile preferences
-defaults import -app iTerm iterm-profile.plist
+# defaults import -app iTerm iterm-profile.plist
 
 # git-together
 touch ~/.git-author-template
